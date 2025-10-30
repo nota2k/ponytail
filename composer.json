@@ -1,0 +1,11 @@
+{
+    "require": {
+        "2crt/block-sections": "^1.0",
+        "uupvite/vite-assets-loader": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sections\\": "sections/"
+        }
+    }
+}

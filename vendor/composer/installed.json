@@ -1,0 +1,77 @@
+{
+    "packages": [
+        {
+            "name": "2crt/block-sections",
+            "version": "v1.0.8",
+            "version_normalized": "1.0.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2crt/block-sections.git",
+                "reference": "60d624c37c2ff945e1bd5b07292b9a1e6bfbd631"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/2crt/block-sections/zipball/60d624c37c2ff945e1bd5b07292b9a1e6bfbd631",
+                "reference": "60d624c37c2ff945e1bd5b07292b9a1e6bfbd631",
+                "shasum": ""
+            },
+            "time": "2024-09-24T06:57:25+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/register-wp-cli-commands.php",
+                    "src/register-block-category.php",
+                    "src/load-scripts.php"
+                ],
+                "psr-4": {
+                    "BlockSections\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/2crt/block-sections/issues",
+                "source": "https://github.com/2crt/block-sections/tree/v1.0.8"
+            },
+            "install-path": "../2crt/block-sections"
+        },
+        {
+            "name": "uupvite/vite-assets-loader",
+            "version": "v1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uupvite/asset-loader.git",
+                "reference": "d526cb458c0c6f630af0624db1cc63eb1c831c8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uupvite/asset-loader/zipball/d526cb458c0c6f630af0624db1cc63eb1c831c8a",
+                "reference": "d526cb458c0c6f630af0624db1cc63eb1c831c8a",
+                "shasum": ""
+            },
+            "time": "2024-04-11T14:30:28+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "UupVite\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/uupvite/asset-loader/issues",
+                "source": "https://github.com/uupvite/asset-loader/tree/v1.0.2"
+            },
+            "install-path": "../uupvite/vite-assets-loader"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

@@ -1,0 +1,34 @@
+{
+  "name": "wp-theme",
+  "version": "4.1.0",
+  "license": "GPL-3.0",
+  "type": "module",
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "prod": "vite build",
+    "start": "bash -c 'npm run dev'",
+    "build": "bash -c 'npm run prod'"
+  },
+  "devDependencies": {
+    "@stylistic/stylelint-plugin": "^3.1.2",
+    "autoprefixer": "^10.4.21",
+    "rollup-plugin-external-globals": "^0.13.0",
+    "sass": "^1.85.1",
+    "stylelint": "^16.15.0",
+    "stylelint-config-standard-scss": "^14.0.0",
+    "vite": "^6.2.1",
+    "vite-plugin-checker": "^0.9.0",
+    "vite-plugin-live-reload": "^3.0.4",
+    "vite-plugin-uup": "^0.0.22"
+  },
+  "dependencies": {
+    "@wordpress/icons": "^10.24.0",
+    "aos": "^2.3.4",
+    "countup.js": "^2.8.2",
+    "jquery": "^3.7.1",
+    "swiper": "^11.2.7"
+  }
+}

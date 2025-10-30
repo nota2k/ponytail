@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '2crt/block-sections' => array(
+            'pretty_version' => 'v1.0.8',
+            'version' => '1.0.8.0',
+            'reference' => '60d624c37c2ff945e1bd5b07292b9a1e6bfbd631',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../2crt/block-sections',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'uupvite/vite-assets-loader' => array(
+            'pretty_version' => 'v1.0.2',
+            'version' => '1.0.2.0',
+            'reference' => 'd526cb458c0c6f630af0624db1cc63eb1c831c8a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../uupvite/vite-assets-loader',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
