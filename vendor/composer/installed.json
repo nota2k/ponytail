@@ -39,26 +39,26 @@
             "install-path": "../2crt/block-sections"
         },
         {
-            "name": "uupvite/vite-assets-loader",
-            "version": "v1.0.2",
-            "version_normalized": "1.0.2.0",
+            "name": "2crt/uup-assets-loader",
+            "version": "v1.0.6",
+            "version_normalized": "1.0.6.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/uupvite/asset-loader.git",
-                "reference": "d526cb458c0c6f630af0624db1cc63eb1c831c8a"
+                "url": "https://github.com/2crt/uup-assets-loader.git",
+                "reference": "afd898ea0a8f743b9184dbad10c5554678d72177"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uupvite/asset-loader/zipball/d526cb458c0c6f630af0624db1cc63eb1c831c8a",
-                "reference": "d526cb458c0c6f630af0624db1cc63eb1c831c8a",
+                "url": "https://api.github.com/repos/2crt/uup-assets-loader/zipball/afd898ea0a8f743b9184dbad10c5554678d72177",
+                "reference": "afd898ea0a8f743b9184dbad10c5554678d72177",
                 "shasum": ""
             },
-            "time": "2024-04-11T14:30:28+00:00",
+            "time": "2024-12-19T10:12:44+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "UupVite\\": "src/"
+                    "Uup\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -66,10 +66,10 @@
                 "MIT"
             ],
             "support": {
-                "issues": "https://github.com/uupvite/asset-loader/issues",
-                "source": "https://github.com/uupvite/asset-loader/tree/v1.0.2"
+                "issues": "https://github.com/2crt/uup-assets-loader/issues",
+                "source": "https://github.com/2crt/uup-assets-loader/tree/v1.0.6"
             },
-            "install-path": "../uupvite/vite-assets-loader"
+            "install-path": "../2crt/uup-assets-loader"
         }
     ],
     "dev": true,

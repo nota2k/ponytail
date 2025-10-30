@@ -15,7 +15,7 @@ class ComposerStaticInit5efd4caaccf25b0785eb79cfec3c570b
     public static $prefixLengthsPsr4 = array (
         'U' => 
         array (
-            'UupVite\\' => 8,
+            'Uup\\' => 4,
         ),
         'S' => 
         array (
@@ -25,12 +25,16 @@ class ComposerStaticInit5efd4caaccf25b0785eb79cfec3c570b
         array (
             'BlockSections\\' => 14,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'UupVite\\' => 
+        'Uup\\' => 
         array (
-            0 => __DIR__ . '/..' . '/uupvite/vite-assets-loader/src',
+            0 => __DIR__ . '/..' . '/2crt/uup-assets-loader/src',
         ),
         'Sections\\' => 
         array (
@@ -39,6 +43,10 @@ class ComposerStaticInit5efd4caaccf25b0785eb79cfec3c570b
         'BlockSections\\' => 
         array (
             0 => __DIR__ . '/..' . '/2crt/block-sections/src',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

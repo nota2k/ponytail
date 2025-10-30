@@ -1,10 +1,10 @@
 {
-    "name": "uupvite/vite-assets-loader",
-    "version": "v1.0.2",
+    "name": "2crt/uup-assets-loader",
+    "version": "v1.0.6",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "UupVite\\": "src/"
+            "Uup\\": "src/"
         }
     },
     "minimum-stability": "stable",

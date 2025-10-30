@@ -6,7 +6,8 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'UupVite\\' => array($vendorDir . '/uupvite/vite-assets-loader/src'),
+    'Uup\\' => array($vendorDir . '/2crt/uup-assets-loader/src'),
     'Sections\\' => array($baseDir . '/sections'),
     'BlockSections\\' => array($vendorDir . '/2crt/block-sections/src'),
+    'App\\' => array($baseDir . '/src'),
 );

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4cc438f721eef9788f38235bc74a9ec0",
+    "content-hash": "054e9ae80afe50c49a5d84ad94c8c9a6",
     "packages": [
         {
             "name": "2crt/block-sections",
@@ -42,23 +42,23 @@
             "time": "2024-09-24T06:57:25+00:00"
         },
         {
-            "name": "uupvite/vite-assets-loader",
-            "version": "v1.0.2",
+            "name": "2crt/uup-assets-loader",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
-                "url": "https://github.com/uupvite/asset-loader.git",
-                "reference": "d526cb458c0c6f630af0624db1cc63eb1c831c8a"
+                "url": "https://github.com/2crt/uup-assets-loader.git",
+                "reference": "afd898ea0a8f743b9184dbad10c5554678d72177"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uupvite/asset-loader/zipball/d526cb458c0c6f630af0624db1cc63eb1c831c8a",
-                "reference": "d526cb458c0c6f630af0624db1cc63eb1c831c8a",
+                "url": "https://api.github.com/repos/2crt/uup-assets-loader/zipball/afd898ea0a8f743b9184dbad10c5554678d72177",
+                "reference": "afd898ea0a8f743b9184dbad10c5554678d72177",
                 "shasum": ""
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "UupVite\\": "src/"
+                    "Uup\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -66,10 +66,10 @@
                 "MIT"
             ],
             "support": {
-                "issues": "https://github.com/uupvite/asset-loader/issues",
-                "source": "https://github.com/uupvite/asset-loader/tree/v1.0.2"
+                "issues": "https://github.com/2crt/uup-assets-loader/issues",
+                "source": "https://github.com/2crt/uup-assets-loader/tree/v1.0.6"
             },
-            "time": "2024-04-11T14:30:28+00:00"
+            "time": "2024-12-19T10:12:44+00:00"
         }
     ],
     "packages-dev": [],
